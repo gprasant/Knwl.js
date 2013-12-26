@@ -2,7 +2,7 @@ Knwl.js [![Build Status](https://travis-ci.org/loadfive/Knwl.js.png?branch=maste
 ====
 
 
-Knwl.js is a Natural Language Processor built with JavaScript, put simply, **Knwl.js scans through text, user data, or just about anything for data of interest**, phone numbers, dates, locations, emails, times, and more. Even check if the string may be spam, or get the overall emotion. 
+Knwl.js is a Natural Language Processor built with JavaScript, put simply, **Knwl.js scans through text, user data, or just about anything for data of interest**, phone numbers, dates, locations, emails, times, and more. Even check if the string may be spam, or get the overall emotion.
 
 ###Use It
 Knwl.js was built to be simple, for normal use, **all you need is one file**, ```knwl.js```. Just include this file in the ```<head>``` of a page.
@@ -48,11 +48,11 @@ var datesFound = hal.get("dates");
 
 ###Building
 
-For Node, if uglify-js is installed globally ( `npm install uglify-js -g` ) then 
+For Node, if uglify-js is installed globally ( `npm install uglify-js -g` ) then
 
     uglifyjs -o ./knwl.min.js ./knwl.js
 
-will create *knwl.min.js*. 
+will create *knwl.min.js*.
 
 
 ###Licence
